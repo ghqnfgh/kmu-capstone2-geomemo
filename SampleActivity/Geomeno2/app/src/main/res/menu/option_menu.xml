@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m1"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="사진촬영" />
+    <item
+        android:id="@+id/m2"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="이미지 선택" />
+    <item
+        android:id="@+id/m3"
+        android:icon="@android:drawable/picture_frame"
+        android:title="그림" />
+    <item
+        android:id="@+id/M4"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="녹화"
+        app:actionLayout="@layout/switch_item" />
+</menu>
